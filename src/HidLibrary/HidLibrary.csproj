@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <Version>3.2.49</Version>
+    <Company>Ultraviolet Catastrophe</Company>
+    <Copyright>Copyright © 2011-2020 Ultraviolet Catastrophe</Copyright>
+
+    <PackageId>hidlibrary</PackageId>
+    <Title>Hid Library</Title>
+    <Authors>Mike O'Brien</Authors>
+    <Description>This library enables you to enumerate and communicate with Hid compatible USB devices in .NET.</Description>
+    <PackageProjectUrl>https://github.com/mikeobrien/HidLibrary</PackageProjectUrl>
+    <PackageTags>usb hid</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Theraot.Core" Version="3.2.11" />
+  </ItemGroup>
+
+</Project>

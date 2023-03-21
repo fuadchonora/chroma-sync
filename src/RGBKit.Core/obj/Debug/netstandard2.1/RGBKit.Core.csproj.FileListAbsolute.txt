@@ -1,0 +1,10 @@
+D:\Dev\ChromaSync\src\RGBKit.Core\bin\Debug\netstandard2.1\RGBKit.Core.deps.json
+D:\Dev\ChromaSync\src\RGBKit.Core\bin\Debug\netstandard2.1\RGBKit.Core.dll
+D:\Dev\ChromaSync\src\RGBKit.Core\bin\Debug\netstandard2.1\RGBKit.Core.pdb
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.csproj.AssemblyReference.cache
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.AssemblyInfoInputs.cache
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.AssemblyInfo.cs
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.csproj.CoreCompileInputs.cache
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.dll
+D:\Dev\ChromaSync\src\RGBKit.Core\obj\Debug\netstandard2.1\RGBKit.Core.pdb

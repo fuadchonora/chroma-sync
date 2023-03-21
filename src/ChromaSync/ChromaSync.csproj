@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.1.0</Version>
+    <Authors>Chroma Sync</Authors>
+    <Company>Chroma Sync</Company>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <Product>Chroma Sync</Product>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../bin/Debug/</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>../bin/Release/</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventLog" Version="3.1.0" />
+    <PackageReference Include="NReco.Logging.File" Version="1.0.4" />
+    <PackageReference Include="RzChromaBroadcastAPI.NET" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HidLibrary\HidLibrary.csproj" />
+    <ProjectReference Include="..\RGBKit.Core\RGBKit.Core.csproj" />
+    <ProjectReference Include="..\RGBKit.Providers.Aura\RGBKit.Providers.Aura.csproj" />
+    <ProjectReference Include="..\RGBKit.Providers.NZXT\RGBKit.Providers.NZXT.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PublishReadyToRunExclude Include="System.Security.Principal.Windows.dll" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\bin\Debug\netstandard2.1\RGBKit.Providers.Cue.deps.json
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\bin\Debug\netstandard2.1\RGBKit.Providers.Cue.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\bin\Debug\netstandard2.1\RGBKit.Providers.Cue.pdb
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\bin\Debug\netstandard2.1\RGBKit.Core.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\bin\Debug\netstandard2.1\RGBKit.Core.pdb
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.csproj.AssemblyReference.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.AssemblyInfoInputs.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.AssemblyInfo.cs
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.csproj.CoreCompileInputs.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.csproj.CopyComplete
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Cue\obj\Debug\netstandard2.1\RGBKit.Providers.Cue.pdb

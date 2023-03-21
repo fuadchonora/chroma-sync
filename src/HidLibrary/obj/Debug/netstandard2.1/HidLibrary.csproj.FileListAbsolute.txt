@@ -1,0 +1,10 @@
+D:\Dev\ChromaSync\src\HidLibrary\bin\Debug\netstandard2.1\HidLibrary.deps.json
+D:\Dev\ChromaSync\src\HidLibrary\bin\Debug\netstandard2.1\HidLibrary.dll
+D:\Dev\ChromaSync\src\HidLibrary\bin\Debug\netstandard2.1\HidLibrary.pdb
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.csproj.AssemblyReference.cache
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.AssemblyInfoInputs.cache
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.AssemblyInfo.cs
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.csproj.CoreCompileInputs.cache
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.dll
+D:\Dev\ChromaSync\src\HidLibrary\obj\Debug\netstandard2.1\HidLibrary.pdb

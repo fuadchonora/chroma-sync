@@ -1,0 +1,263 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\ChromaSync\\src\\RGBKit.Providers.NZXT\\RGBKit.Providers.NZXT.csproj": {}
+  },
+  "projects": {
+    "D:\\Dev\\ChromaSync\\src\\HidLibrary\\HidLibrary.csproj": {
+      "version": "3.2.49",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\ChromaSync\\src\\HidLibrary\\HidLibrary.csproj",
+        "projectName": "hidlibrary",
+        "projectPath": "D:\\Dev\\ChromaSync\\src\\HidLibrary\\HidLibrary.csproj",
+        "packagesPath": "C:\\Users\\Fuad Chonora\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\ChromaSync\\src\\HidLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fuad Chonora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Theraot.Core": {
+              "target": "Package",
+              "version": "[3.2.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\ChromaSync\\src\\NZXTSharp\\NZXTSharp.csproj": {
+      "version": "2.1.3",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\ChromaSync\\src\\NZXTSharp\\NZXTSharp.csproj",
+        "projectName": "NZXTSharp",
+        "projectPath": "D:\\Dev\\ChromaSync\\src\\NZXTSharp\\NZXTSharp.csproj",
+        "packagesPath": "C:\\Users\\Fuad Chonora\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\ChromaSync\\src\\NZXTSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fuad Chonora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Dev\\ChromaSync\\src\\HidLibrary\\HidLibrary.csproj": {
+                "projectPath": "D:\\Dev\\ChromaSync\\src\\HidLibrary\\HidLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "docfx.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.43.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\ChromaSync\\src\\RGBKit.Core\\RGBKit.Core.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\ChromaSync\\src\\RGBKit.Core\\RGBKit.Core.csproj",
+        "projectName": "RGBKit.Core",
+        "projectPath": "D:\\Dev\\ChromaSync\\src\\RGBKit.Core\\RGBKit.Core.csproj",
+        "packagesPath": "C:\\Users\\Fuad Chonora\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\ChromaSync\\src\\RGBKit.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fuad Chonora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Dev\\ChromaSync\\src\\RGBKit.Providers.NZXT\\RGBKit.Providers.NZXT.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\ChromaSync\\src\\RGBKit.Providers.NZXT\\RGBKit.Providers.NZXT.csproj",
+        "projectName": "RGBKit.Providers.NZXT",
+        "projectPath": "D:\\Dev\\ChromaSync\\src\\RGBKit.Providers.NZXT\\RGBKit.Providers.NZXT.csproj",
+        "packagesPath": "C:\\Users\\Fuad Chonora\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\ChromaSync\\src\\RGBKit.Providers.NZXT\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fuad Chonora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Dev\\ChromaSync\\src\\NZXTSharp\\NZXTSharp.csproj": {
+                "projectPath": "D:\\Dev\\ChromaSync\\src\\NZXTSharp\\NZXTSharp.csproj"
+              },
+              "D:\\Dev\\ChromaSync\\src\\RGBKit.Core\\RGBKit.Core.csproj": {
+                "projectPath": "D:\\Dev\\ChromaSync\\src\\RGBKit.Core\\RGBKit.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

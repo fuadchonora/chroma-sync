@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ChromaSync": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "remoteDebugEnabled": false
+    }
+  }
+}

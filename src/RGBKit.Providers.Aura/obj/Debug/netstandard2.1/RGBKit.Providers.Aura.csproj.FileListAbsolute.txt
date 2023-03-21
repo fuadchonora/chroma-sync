@@ -1,0 +1,16 @@
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\bin\Debug\netstandard2.1\RGBKit.Providers.Aura.deps.json
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\bin\Debug\netstandard2.1\RGBKit.Providers.Aura.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\bin\Debug\netstandard2.1\RGBKit.Providers.Aura.pdb
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\bin\Debug\netstandard2.1\RGBKit.Core.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\bin\Debug\netstandard2.1\RGBKit.Core.pdb
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\bin\Debug\netstandard2.1\Interop.AuraServiceLib.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.csproj.AssemblyReference.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\Interop.AuraServiceLib.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.csproj.ResolveComReference.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.AssemblyInfoInputs.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.AssemblyInfo.cs
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.csproj.CoreCompileInputs.cache
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.csproj.CopyComplete
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.dll
+D:\Dev\ChromaSync\src\RGBKit.Providers.Aura\obj\Debug\netstandard2.1\RGBKit.Providers.Aura.pdb
