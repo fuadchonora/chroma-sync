@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Version>1.1.0</Version>
-    <Authors>Chroma Sync</Authors>
+    <Authors>Fuad Chonora</Authors>
     <Company>Chroma Sync</Company>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
     <Product>Chroma Sync</Product>

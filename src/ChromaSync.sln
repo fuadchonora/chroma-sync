@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGBKit.Providers.Cue", "RGB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HidLibrary", "HidLibrary\HidLibrary.csproj", "{B95548D2-12BA-45C2-857B-EFA72E615A5F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ChromaSync.Setup", "ChromaSync.Setup\ChromaSync.Setup.vdproj", "{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,12 @@ Global
 		{B95548D2-12BA-45C2-857B-EFA72E615A5F}.Release|x64.Build.0 = Release|Any CPU
 		{B95548D2-12BA-45C2-857B-EFA72E615A5F}.Release|x86.ActiveCfg = Release|Any CPU
 		{B95548D2-12BA-45C2-857B-EFA72E615A5F}.Release|x86.Build.0 = Release|Any CPU
+		{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}.Debug|Any CPU.ActiveCfg = Debug
+		{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}.Debug|x64.ActiveCfg = Debug
+		{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}.Debug|x86.ActiveCfg = Debug
+		{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}.Release|Any CPU.ActiveCfg = Release
+		{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}.Release|x64.ActiveCfg = Release
+		{1E72B8CA-45E7-45B8-B357-2AB2C986D9EA}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
