@@ -33,7 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HidLibrary\HidLibrary.csproj" />
     <ProjectReference Include="..\RGBKit.Core\RGBKit.Core.csproj" />
     <ProjectReference Include="..\RGBKit.Providers.Aura\RGBKit.Providers.Aura.csproj" />
     <ProjectReference Include="..\RGBKit.Providers.NZXT\RGBKit.Providers.NZXT.csproj" />

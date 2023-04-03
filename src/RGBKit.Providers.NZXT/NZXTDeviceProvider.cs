@@ -1,7 +1,6 @@
 ﻿using System.Threading;
 using System.Collections.Generic;
 using RGBKit.Core;
-using NZXTSharp.KrakenX;
 
 namespace RGBKit.Providers.NZXT
 {
@@ -48,10 +47,9 @@ namespace RGBKit.Providers.NZXT
         {
             PerformHealthCheck();
 
-            //Thread.Sleep(30000);
-            //Thread.Sleep(5000);
-
-            _devices.Add(new NZXTDevice(new KrakenX()));
+            // Add KrakenX3 Device
+            string devicePath = "\\\\?\\hid#vid_1e71&pid_2007#7&1f09b849&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}";
+            _devices.Add(new NZXTDevice(devicePath));
         }
 
         /// <summary>

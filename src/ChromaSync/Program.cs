@@ -3,19 +3,14 @@ using System.IO;
 using System.Diagnostics;
 using System.Threading;
 using System.Runtime.InteropServices;
+
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+
 using RGBKit.Core;
 using RGBKit.Providers.Aura;
 using RGBKit.Providers.NZXT;
-
-using NZXTSharp;
-using NZXTSharp.COM;
-using NZXTSharp.Exceptions;
-using NZXTSharp.KrakenX;
-
-using HidLibrary;
 
 namespace ChromaSync
 {
@@ -36,7 +31,7 @@ namespace ChromaSync
         /// <param name="args">The command line arguments</param>
         public static void Main(string[] args)
         {
-            var mutex = new Mutex(true, "NZXTConnect", out var result);
+            var mutex = new Mutex(true, "ChromaSync", out var result);
 
             if (!result)
             {
@@ -58,7 +53,7 @@ namespace ChromaSync
         /// <returns>The host builder</returns>
         public static IHostBuilder CreateHostBuilder(string[] args)
         {
-            var logFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "NZXTConnect\\logs");
+            var logFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "ChromaSync\\logs");
 
             if (!Directory.Exists(logFolder))
                 Directory.CreateDirectory(logFolder);
@@ -72,7 +67,7 @@ namespace ChromaSync
                 .ConfigureLogging((hostingContext, logging) =>
                 {
                     logging.AddEventLog();
-                    logging.AddFile(Path.Combine(logFolder, $"NZXTConnect.log"), append: true);
+                    logging.AddFile(Path.Combine(logFolder, $"ChromaSync.log"), append: true);
                 })
                 .ConfigureServices((hostContext, services) =>
                 {

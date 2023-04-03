@@ -1,17 +1,8 @@
-﻿using System;
-using RGBKit.Core;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using System.Collections.Generic;
-using System.Drawing;
 
-using NZXTSharp;
-using NZXTSharp.KrakenX;
-using NZXTSharp.Exceptions;
-
-using Theraot.Collections;
-using NZXTSharp.COM;
-using System.Diagnostics;
+using RGBKit.Core;
+using HidLibrary;
 
 namespace RGBKit.Providers.NZXT
 {
@@ -25,8 +16,6 @@ namespace RGBKit.Providers.NZXT
         /// </summary>
         public string Name { get; set; }
 
-        private bool ranOnce = false;
-
         /// <summary>
         /// The lights the device has
         /// </summary>
@@ -35,7 +24,7 @@ namespace RGBKit.Providers.NZXT
         /// <summary>
         /// The device
         /// </summary>
-        private KrakenX _device;
+        private HidDevice _device;
 
         /// <summary>
         /// The lights the device has
@@ -43,13 +32,13 @@ namespace RGBKit.Providers.NZXT
         private List<NZXTDeviceLight> _lights;
 
         /// <summary>
-        /// Creates an NZXT KrakenX device
+        /// Creates an NZXT HidDevice device
         /// </summary>
         /// <param name="device">The device</param>
-        internal NZXTDevice(KrakenX device)
+        internal NZXTDevice(string devicePath)
         {
-            _device = device;
-            Name = _device.DeviceID.ToString();
+            _device = HidDevices.Enumerate(devicePath).FirstOrDefault();
+           
             _lights = new List<NZXTDeviceLight>();
 
             for (int i = 0; i < 40; i++)
@@ -69,7 +58,7 @@ namespace RGBKit.Providers.NZXT
             byte[] footer = { 0, 1, 0, 40, 3 };
             
             byte[] buffer = header.Concat(colors).ToArray().Concat(footer).ToArray();
-            _device.WriteCustom(buffer);
+            _ = _device.WriteAsync(buffer);
         }
     }
 }

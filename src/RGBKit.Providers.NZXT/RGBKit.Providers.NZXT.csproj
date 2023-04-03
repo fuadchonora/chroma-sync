@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NZXTSharp\NZXTSharp.csproj" />
+    <ProjectReference Include="..\HidLibrary\HidLibrary.csproj" />
     <ProjectReference Include="..\RGBKit.Core\RGBKit.Core.csproj" />
   </ItemGroup>
 
